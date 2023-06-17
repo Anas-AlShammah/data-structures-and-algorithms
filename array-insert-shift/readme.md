@@ -1,8 +1,6 @@
-# array-reverse
-in this challenge we will take an integer array then reversed the order of the element 
-and return reversed array
+# insertShiftArray
+in this challenge we will takes an array and a value to be added
 ## Whiteboard Process
-![Whiteboard1](board1.png)
-![Whiteboard2](board2.png)
+![Whiteboard1](insert.png)
 
 
