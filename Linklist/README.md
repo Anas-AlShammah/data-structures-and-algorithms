@@ -3,11 +3,11 @@ in this challenge we create node class
 and LinkList class and and node to list and insert and includes for value and convert all list to string 
 
 ## Whiteboard Process
-![](/img/1.png)
-![](/img/2.png)
-![](/img/3.png)
-![](/img/4.png)
-![](/img/5.png)
+![](img/1.png)
+![](img/2.png)
+![](img/3.png)
+![](img/4.png)
+![](img/5.png)
 
 
 ## Approach & Efficiency
