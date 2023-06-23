@@ -4,4 +4,4 @@
 
 - [array-insert-shift](array-insert-shift/readme.md)
 
-- [Linklist](Linklist/readme.md)
+- [Linklist](Linklist/README.md)
