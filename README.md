@@ -7,4 +7,5 @@
 - [BinarySearch](BinarySearch/readme.md)
 
 - [Linklist](Linklist/README.md)
+- [Linked List Insertions](LinkedListInsertions/README.md)
 

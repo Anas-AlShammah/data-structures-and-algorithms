@@ -8,9 +8,7 @@ namespace LinkedListInsertions
         {
             
             var listNodes = new LinkedList();
-
-
-            listNodes.Add("anas");
+            listNodes.AppendNode("anas");
             listNodes.AppendNode("bassam");
             listNodes.AppendNode("hi");
             listNodes.AppendNode("there");

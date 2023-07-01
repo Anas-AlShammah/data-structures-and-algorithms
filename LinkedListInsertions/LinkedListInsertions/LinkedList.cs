@@ -10,24 +10,7 @@ namespace LinkedListInsertions
     {
         public Node head { get; set; } = null;
         public Node tail { get; set; } = null;
-        int count =0;
-        public LinkedList() {
-            count++;
-        }
-        public void Add(string data)
-        {
-            var addNode = new Node(data);
-            if (head == null)
-            {
-                head = addNode;
-                tail = addNode;
-            }
-            else
-            {
-                tail.next = addNode;
-                tail = addNode;
-            }
-        }
+       
         public void Display()
         {
             while (head != null)
@@ -75,10 +58,10 @@ namespace LinkedListInsertions
         public void InsertAfter (string data1,string data2)
         {
             var currentNode = head;
-          //  var prevNode = head;
+  
             while (currentNode.data != data1)
             {
-               // prevNode = currentNode;
+             
                 currentNode = currentNode.next;
             }
             var addNode = new Node(data2);
