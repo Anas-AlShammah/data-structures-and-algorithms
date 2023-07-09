@@ -9,3 +9,4 @@
 - [Linklist](Linklist/README.md)
 - [Linked List Insertions](LinkedListInsertions/README.md)
 
+- [linked-list-zip](linked-list-zip/README.md)
