@@ -14,3 +14,5 @@
 - [Stack & Queue](stack-and-queue/README.md)
 
 - [stack-queue-pseudo](stack-queue-pseudo/README.md)
+
+- [stack-queue-animal-shelter](stack-queue-animal-shelter/README.md)
