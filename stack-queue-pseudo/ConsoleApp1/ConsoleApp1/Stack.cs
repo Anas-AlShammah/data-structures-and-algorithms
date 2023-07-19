@@ -3,49 +3,62 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace ConsoleApp1
 {
     public class Stack
     {
-        private List<int> stack;
+        public Node Top { get; set; }
 
-        public Stack()
+        public void Push(int data)
         {
-            stack = new List<int>();
+            Node addNode = new Node(data);
+            addNode.Next = Top;
+            Top = addNode;
         }
-
-        public void Push(int item)
+        public void Display()
         {
-            stack.Add(item);
+            Node current = Top;
+            while (current != null)
+            {
+                Console.WriteLine(current.Value);
+                current = current.Next;
+            }
         }
-
-        public int Pop()
+        public Node Pop()
         {
-            if (stack.Count == 0)
+            if (Top == null)
             {
                 throw new InvalidOperationException("Stack is empty.");
             }
+            Node current = Top;
 
-            int lastIndex = stack.Count - 1;
-            int item = stack[lastIndex];
-            stack.RemoveAt(lastIndex);
-            return item;
+            Top = Top.Next;
+            return current;
+
         }
-
-        public int Peek()
+        public Node Peek()
         {
-            if (stack.Count == 0)
+            if (Top == null)
             {
                 throw new InvalidOperationException("Stack is empty.");
             }
+            return Top;
 
-            return stack[stack.Count - 1];
         }
-
-        public int Count => stack.Count;
-
-        public bool IsEmpty => stack.Count == 0;
+        public bool IsEmpty()
+        {
+            if (Top == null)
+            {
+                Console.WriteLine("True");
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 
 }

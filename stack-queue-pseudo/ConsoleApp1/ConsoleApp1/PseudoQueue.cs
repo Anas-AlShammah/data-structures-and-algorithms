@@ -17,15 +17,15 @@ namespace ConsoleApp1
         }
         public int Dequeue()
         {
-            if (outbox.IsEmpty)
+            if (outbox.IsEmpty())
             {
-                while (!inbox.IsEmpty)
+                while (!inbox.IsEmpty())
                 {
-                    outbox.Push(inbox.Pop());
+                    outbox.Push(inbox.Pop().Value);
                 }
             }
 
-            return outbox.Pop();
+            return outbox.Pop().Value;
         }
 
         public void Enqueue(int value)
