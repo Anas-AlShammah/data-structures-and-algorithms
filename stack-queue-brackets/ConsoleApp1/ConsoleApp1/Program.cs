@@ -1,4 +1,5 @@
-﻿bool ValidateBrackets(string str)
+﻿
+ bool ValidateBrackets(string str)
 {
     string str1 = "({[";
     string str2 = ")}]";
