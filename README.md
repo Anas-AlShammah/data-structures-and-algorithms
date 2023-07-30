@@ -18,3 +18,5 @@
 - [stack-queue-animal-shelter](stack-queue-animal-shelter/README.md)
 
 - [stack-queue-brackets](stack-queue-brackets/README.md)
+
+- [Trees](Trees/README.md)
