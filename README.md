@@ -20,3 +20,5 @@
 - [stack-queue-brackets](stack-queue-brackets/README.md)
 
 - [Trees](Trees/README.md)
+
+- [tree-max](tree-max/README.md)
