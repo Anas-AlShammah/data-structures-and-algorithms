@@ -22,3 +22,5 @@
 - [Trees](Trees/README.md)
 
 - [tree-max](tree-max/README.md)
+
+- [Hash-Map](HashMap/README.md)
