@@ -24,3 +24,5 @@
 - [tree-max](tree-max/README.md)
 
 - [Hash-Map](HashMap/README.md)
+
+- [hashmap-repeated-word](hashmap-repeated-word/README.md)
